@@ -1,13 +1,14 @@
-# Hello Old Driver
+# Hello Old Driver Reader (Python)
 A LLSS Reader
 
 Inspired by [Chion82/hello-old-driver](https://github.com/Chion82/hello-old-driver).
 
-## Go version (recommended)
-See [src-go/README.md](src-go/README.md)
+## Usage
+```
+python main.py
+```
+Required Python version: 3.6.4+.
 
-## C# version
-See [src-csharp/README.md](src-csharp/README.md)
-
-## Python version
-See [src-python/README.md](src-python/README.md)
+### Result
+* `result.json`: JSON data that can be used by the script next time.
+* `result.txt`: Human-readable text file.
